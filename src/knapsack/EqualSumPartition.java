@@ -4,7 +4,7 @@ public class EqualSumPartition {
 
     private static boolean [][] memory;
 
-    private static int[] INPUT = new int[]{10,20,10,10};
+    private static int[] INPUT = new int[]{10,20,10};
 
     public static void main(String[] args){
         System.out.println(equalSumPartition(INPUT));
@@ -36,7 +36,7 @@ public class EqualSumPartition {
             for(int j = 1; j < ((sum/2)+1) ; j++) {
 
                 if(array[i-1] > j) {
-                    memory[i][j] = false;
+                    memory[i][j] = memory[i-1][j];
                 } else {
                     memory[i][j] = memory[i-1][j-array[i-1]] || memory[i-1][j];
                 }
