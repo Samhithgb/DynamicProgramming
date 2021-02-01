@@ -1,5 +1,7 @@
 package BoundedKnapsack;
 
+
+//aka The Target Sum problem.
 public class EqualSumPartition {
 
     private static boolean [][] memory;

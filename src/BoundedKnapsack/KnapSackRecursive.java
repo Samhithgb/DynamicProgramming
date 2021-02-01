@@ -1,6 +1,6 @@
 package BoundedKnapsack;
 
-public class KnapSack {
+public class KnapSackRecursive {
 
     private static int[][] memory;
 

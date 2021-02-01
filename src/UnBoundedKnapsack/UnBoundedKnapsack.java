@@ -1,5 +1,7 @@
 package UnBoundedKnapsack;
 
+
+// aka The Rod Cutting Problem.
 public class UnBoundedKnapsack {
 
     private static int[][] memory;
