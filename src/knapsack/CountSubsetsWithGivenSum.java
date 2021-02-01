@@ -1,8 +1,7 @@
 package knapsack;
 
 public class CountSubsetsWithGivenSum {
-
-    private static int[][] memory;
+    public static int[][] memory;
     private static final int[] INPUT = new int[]{10,10,20,30,20,10};
     private static final int SUM = 20;
 
@@ -11,7 +10,7 @@ public class CountSubsetsWithGivenSum {
         System.out.println(countSubSetWithSum(SUM,INPUT));
     }
 
-    private static int countSubSetWithSum(int sum, int[] array) {
+    public static int countSubSetWithSum(int sum, int[] array) {
         for(int i = 0; i < array.length+ 1 ; i++) {
             for(int j = 0; j< sum+1; j ++ ) {
                 if(i==0) {
