@@ -1,4 +1,4 @@
-package knapsack;
+package BoundedKnapsack;
 
 public class SubSetSumProblem {
     private static int N = 3;

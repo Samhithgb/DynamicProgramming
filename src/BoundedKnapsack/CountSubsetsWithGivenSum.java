@@ -1,4 +1,4 @@
-package knapsack;
+package BoundedKnapsack;
 
 public class CountSubsetsWithGivenSum {
     public static int[][] memory;

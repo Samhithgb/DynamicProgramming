@@ -1,4 +1,4 @@
-package knapsack;
+package BoundedKnapsack;
 
 public class CountSubSetsWithGivenDifference {
     private static int[] INPUT = new int[]{20,23,46,54,2,7,76};
